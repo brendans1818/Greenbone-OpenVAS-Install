@@ -34,3 +34,4 @@
     - Removes the docker. This allows you to reinstall it if you wish.
 # SCREENSHOTS
 [![Screenshot-2021-11-14-135401.png](https://i.postimg.cc/x1b7CFc4/Screenshot-2021-11-14-135401.png)](https://postimg.cc/mPBVpj3Y)
+[![Screenshot-2021-11-14-135149.png](https://i.postimg.cc/SQ9bjs3r/Screenshot-2021-11-14-135149.png)](https://postimg.cc/K4mHHZZk)
