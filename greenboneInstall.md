@@ -1,4 +1,4 @@
-# **Docker Install**
+# DOCKER INSTALL
 **PreDocker Install: (commands to install docker on Ubuntu via the powerpoint)**
   - sudo apt update
   - sudo apt install ca-certificates curl gnupg lsb-release
