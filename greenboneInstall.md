@@ -32,6 +32,14 @@
       - Stops the docker
   - sudo docker rm openvas 
     - Removes the docker. This allows you to reinstall it if you wish.
+# DOCKER COMPOSE
+version: '3.3'  
+services:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;openvas:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ports:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- '443:443'  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;container_name: openvas  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;image: mikesplain/openvas     
 # SCREENSHOTS
 [![Screenshot-2021-11-14-135401.png](https://i.postimg.cc/x1b7CFc4/Screenshot-2021-11-14-135401.png)](https://postimg.cc/mPBVpj3Y)
 [![Screenshot-2021-11-14-135149.png](https://i.postimg.cc/SQ9bjs3r/Screenshot-2021-11-14-135149.png)](https://postimg.cc/K4mHHZZk)
